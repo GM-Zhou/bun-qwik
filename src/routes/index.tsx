@@ -4,7 +4,7 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <div>
-      <div class='text-3xl'>Welcome to Qwik</div>
+      <div class='text-3xl'>Welcome to Qwik12</div>
       <div class='mt-4 text-lg text-gray-600'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia enim dicta distinctio
         blanditiis nostrum cumque quae laudantium laboriosam, necessitatibus facilis ullam pariatur
@@ -20,6 +20,10 @@ export const head: DocumentHead = {
     {
       name: 'description',
       content: 'Qwik site description'
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1'
     }
   ]
 };
